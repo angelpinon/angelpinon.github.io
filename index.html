@@ -7,22 +7,94 @@
 		<link rel="stylesheet" type="text/css" href="MyStyle123.css">
 
 	<center>
-		<header style="font-size: 300%; background-color: orange; font-weight: bolder">Angel Pinon-Molina's Website</header>
+		<header style="font-size: 200%; background-color: orange; font-weight: bolder">Angel Pinon-Molina's Website</header>
 
 		<div class="topnav">
 			<a class="active" href="index.html">HOME</a>
 			<a href="codingportfolio.html">CODING PORTFOLIO</a>
 			<a href="Goals.html">GOALS</a>
-			<a href="#SOCIALMEDIA">SOCIAL MEDIA</a>
+			<a href="Social.html">SOCIAL MEDIA</a>
 	</center>
 
-	<body class="BodyText">
-		<p>This is me beginning to code. Although its going by slowly I think I'm making pretty good progress with this. I will be adding a lot more to make this looke even better with more actual information. 
-		</p>
-	</body>
+	<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
 
-	<center>
-		<img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Falcon_Heavy_cropped.jpg" alt="ROCKET" style="width: 250px;height: auto;">
-	</center>
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+}
+
+/* Create two columns/boxes that floats next to each other */
+  p {
+    float: left;
+    width: 30%;
+    height: 300px; 
+    background: #ccc;
+    padding: 20px;
+}
+
+/* Style the list inside the menu */
+p ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+article {
+    float: right;
+    padding-left:100px;
+    width: 70%;
+    background-color: none;
+    height: 300px;
+}
+
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>This is me beginning to code. Although its going by slowly I think I'm making pretty good progress with this. I will be adding a lot more to make this looke even better with more actual information.</h2>
+</header>
+
+<section>
+  <p>This is where I'd put a paragraph if I had a paragraph</p>
+   
+  <article>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Falcon_Heavy_cropped.jpg" alt="ROCKET" style="width: auto;height: 400px;">
+  </article>
+</section>
+
+</body>
 
 </html>
